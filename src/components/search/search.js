@@ -15,10 +15,10 @@ export class Search extends DivComponent {
         <div class="search__wrapper">
         <input type="text" placeholder="Найти книгу или автора...." class="search__input"
         value="${this.state.searchQuery ? this.state.searchQuery : ''}" />
-        <img src="/static/search.svg" alt="search" />
+        <img src="/pulic/search.svg" alt="search" />
         </div>       
         <button class="search__button" aria-label="Искать">
-            <img src="/static/search-white.svg" alt="search" />
+            <img src="/pulic/search-white.svg" alt="search" />
         </button>
         `
         this.el.querySelector('button').addEventListener('click', this.search.bind(this));
