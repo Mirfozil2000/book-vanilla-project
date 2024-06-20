@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.menu__counter {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0 10px;
+}
+
+.menu__item:visited {
+  color: #121212;
+  font-weight: 700;
+}
